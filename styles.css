@@ -1,0 +1,545 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-width: 1000px;
+    font-family: Arial, serif;
+
+}
+
+h2 {
+    font-size: 20px;
+    padding: 27px 0 27px 18px;
+    margin: 0 0 34px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#black-bar {
+    background-color: #00122f;
+    color: white;
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+#black-bar a {
+    color: white;
+    text-decoration: underline;
+}
+
+.fixed-container {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+#button {
+    margin-left: 12px;
+    margin-bottom: 164px;
+}
+
+#kurs {
+    position: absolute;
+    left: 10px;
+    bottom: 40px;
+    width: 196px;
+    height: 100px;
+    background-color: #d7d7d7;
+    padding: 17px;
+}
+
+
+.navigation menu {
+    padding: 0;
+    height: 70px;
+    float: left;
+    margin: 0 auto;
+    position: absolute;
+    top: 20px;
+
+}
+
+
+.navigation menu li {
+    float: left;
+    list-style-type: none;
+    color: #cfc7c7;
+
+}
+
+.navigation menu li a {
+    color: black;
+    padding: 0.5px 13px 0.5px 0.5px;
+
+
+}
+
+.navigation a {
+    text-decoration: none;
+
+}
+
+#datetime {
+    float: right;
+}
+
+#header {
+    height: 100px;
+
+}
+
+#logo {
+    position: relative;
+    top: 38px;
+    float: left;
+}
+
+#Moscow {
+    position: absolute;
+    top: 50px;
+    left: 170px;
+}
+
+#icon-weather {
+    position: absolute;
+    top: 49px;
+    right: 422px;
+}
+
+#temp {
+    position: absolute;
+    top: 54px;
+    right: 367px;
+    color: #a49e9e;
+}
+
+.form {
+    position: relative;
+    top: 15px;
+    right: 0;
+}
+
+.input {
+
+    float: right;
+    font-size: 14px;
+    border-width: 0;
+    border-style: solid;
+    border-radius: 50px;
+    outline: none;
+    background: #f3f3f3;
+    height: 45px;
+    width: 320px;
+    padding: 18px 40px 18px 22px;
+}
+
+.button {
+    width: 18px;
+    height: 18px;
+    background: url('img/search.png');
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 17px;
+
+}
+
+
+#menu-container {
+    height: 70px;
+}
+
+#column-left {
+    background-color: #FFFFFF;
+    width: 250px;
+    float: left;
+}
+
+.news-item {
+    padding-left: 18px;
+    margin-bottom: 27px;
+    font-size: 14px;
+
+}
+
+
+.news-item-text {
+    margin-bottom: 20px;
+    text-align: start;
+
+}
+
+.news-item-text1 {
+    margin-bottom: 20px;
+    text-align: start;
+    font-weight: bold;
+
+}
+
+.news-item-props {
+    font-size: 12px;
+    position: relative;
+}
+
+.news-item-props a {
+    color: #91919f;
+}
+
+.news-time {
+    position: absolute;
+    top: 0;
+    left: 120px;
+    padding-left: 15px;
+    background-image: url('img/icon-time.png');
+    background-repeat: no-repeat;
+}
+
+.news-comments-count {
+    position: absolute;
+    top: 0;
+    left: 180px;
+    padding-left: 15px;
+    background-image: url('img/icon-comments.png');
+    background-repeat: no-repeat;
+}
+
+#btn {
+    margin: 20px 20px 28px 33px;
+
+}
+
+
+#column-center {
+    width: 480px;
+    margin-left: 20px;
+    float: left;
+    height: 874px;
+}
+
+
+#krim {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    left: 20px;
+    top: 152px;
+
+}
+
+.news-time-krim {
+    position: absolute;
+    top: 274px;
+    left: 20px;
+    font-size: 12px;
+    color: #f4f5f5;
+}
+
+.news-time-krim1 {
+    position: absolute;
+    background-image: url('img/clock-gruz.png');
+    background-repeat: no-repeat;
+    top: 274px;
+    left: 118px;
+    font-size: 12px;
+    padding-left: 15px;
+    color: #f4f5f5;
+}
+
+#castle {
+    top: 20px;
+    left: -18px;
+    position: relative;
+    background-image: url('img/zamok.png');
+    background-repeat: no-repeat;
+    width: 462px;
+    height: 322px;
+}
+
+#castle1 {
+    position: absolute;
+    font-size: 12px;
+    top: 115px;
+    left: 20px;
+}
+
+#navalyni {
+    height: 220px;
+    width: 222px;
+    top: 20px;
+    position: relative;
+    font-size: 14px;
+}
+
+#pasport {
+    font-size: 14px;
+    position: relative;
+    right: -237px;
+    top: -207px;
+    height: 220px;
+    width: 222px;
+}
+
+#youtube {
+    font-size: 14px;
+    position: relative;
+    bottom: 167px;
+    height: 220px;
+    width: 222px;;
+}
+
+#futtbol {
+    font-size: 14px;
+    position: relative;
+    right: -240px;
+    bottom: 387px;
+    height: 220px;
+    width: 222px;
+
+}
+
+#truck {
+    position: absolute;
+    background-image: url('img/gruzovik.png');
+    background-repeat: no-repeat;
+    height: 393px;
+    width: 588px;
+}
+
+#truck1 {
+    position: absolute;
+    color: #ffffff;
+    font-size: 12px;
+    top: 115px;
+    left: 20px
+}
+
+#gruz1 {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    left: 20px;
+    top: 152px;
+}
+
+
+.time-gruz {
+    position: absolute;
+    background-image: url('img/clock-gruz.png');
+    background-repeat: no-repeat;
+    top: 274px;
+    left: 118px;
+    font-size: 12px;
+    padding-left: 15px;
+    color: #ffffff;
+}
+
+.data-gruz {
+    position: absolute;
+    top: 274px;
+    left: 20px;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+#Ministry {
+    position: absolute;
+    color: #c5c0c0;
+    font-size: 14px;
+    top: 300px;
+    left: 20px;
+
+}
+
+#new-soft-he-day {
+    float: right;
+    width: 415px;
+    height: 450px;
+
+}
+
+.news-item-text1 {
+    margin-bottom: 20px;
+    text-align: start;
+    font-weight: bold;
+
+}
+
+
+#central-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f9f9f9;
+    background-image: url('img/central-bg-top.png');
+    background-repeat: repeat-x;
+
+}
+
+#central-container .fixed-container {
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+
+
+#column-right {
+    width: 250px;
+    float: right;
+
+}
+
+#column-right img {
+    margin-bottom: 20px;
+}
+
+
+.list {
+    padding-left: 20px;
+}
+
+.list-item {
+    display: list-item;
+}
+
+
+#footer {
+    height: 312px;
+    background-color: #00122f;
+
+}
+
+.container-footer {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+#news-icon-footer {
+    left: 420px;
+    top: 50px;
+    bottom: 20px;
+    position: absolute;
+}
+
+#icon-inst {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    float: right;
+
+}
+
+#icon-twit {
+    position: absolute;
+    right: 80px;
+    top: 50px;
+
+}
+
+#icon-face {
+    position: absolute;
+    right: 140px;
+    top: 50px;
+
+
+}
+
+#icon-vk {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+
+}
+
+
+#mail-footer {
+    position: absolute;
+    right: 220px;
+    top: 180px;
+}
+
+#mail-footer1 {
+    position: absolute;
+    right: 84px;
+    top: 174px;
+}
+
+#phone-footer {
+    position: absolute;
+    right: 220px;
+    top: 130px;
+}
+
+#phone-footer1 {
+    position: absolute;
+    right: 60px;
+    top: 126px;
+}
+
+#list-1 {
+    padding: 0;
+    position: absolute;
+    float: left;
+    margin-top: 20px;
+}
+
+#list-2 {
+    position: absolute;
+    left: 138px;
+    top: 28px;
+    padding: 0;
+}
+
+#list-3 {
+    position: absolute;
+    left: 410px;
+    top: 90px;
+    padding: 0;
+}
+
+a, ul, li, #footer {
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    line-height: 1.5;
+    padding: 7px;
+}
+
+
+.copy {
+    top: 184px;
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    color: #8d9198;
+    border-top: 1px solid #26354e;
+    margin-top: 58px;
+    padding-top: 15px;
+
+}
+
+#popup-container {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/bg.png);
+    z-index: 10;
+}
+
+#popup {
+    width: 0;
+    height: 0;
+    background-color: #ffffff;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+#btn1 {
+    position: absolute;
+    left: 110px;
+    bottom: 192px;
+}
